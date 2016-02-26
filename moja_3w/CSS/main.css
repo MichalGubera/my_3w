@@ -1,0 +1,253 @@
+body {
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+    background-color: #F0F0F0;
+}
+
+/* stały nagłówek */
+
+.nav {
+    background-color: #5F5F5F;
+    border-bottom: 1px solid #ccc;
+    color:#ccc;
+    font-weight: bold;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    text-decoration:none;
+}
+
+.nav li {
+    display: inline;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.nav ul {
+    display: inline;
+    padding: 0 10px;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.nagłówek {
+    padding: 10px;
+    color: #00CCFF;
+}
+
+/* o autorze */
+
+.main {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+	height:auto;
+	min-height: 856px;
+}
+
+#motto {
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 40px;
+    letter-spacing: .1em;
+    padding: 25px 0 20px 0;
+    margin: 5% 20% 0 20%;
+    color: #555;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#story {
+    line-height: 28px;
+    font-weight: normal;
+    padding: 15px 20% 5%;
+    margin: 25px 0;
+    color: #555;
+}
+
+.face img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+/* portfolio - chwilowo fikcyjne... */
+
+.galeria {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #E55B00;
+	height:auto;
+	min-height: 856px;
+}
+
+.moje-prace {
+    margin: 10% auto;
+    text-align: center;	
+}
+
+.moja-praca {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 28px;
+    float: none;
+	color: #FFF;
+}
+
+.moja-praca .thumbnail {
+    width: 320px;
+    height: 212px;
+}
+
+/* resume */
+
+.o_mnie {
+    clear: both;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    background-color: #DEDEDE;
+	height:auto;
+	min-height: 856px;
+    padding-right: 0.2em;
+}
+
+#leftCol {
+    padding: 2em 0 2% 2%;
+    float: left;
+    width: 45%;
+}
+
+#rightCol {
+    padding: 2em 0 2% 55%;
+    width: 45%;
+}
+
+.life {
+    padding-left: 0px;
+}
+
+.lifePart {
+    padding-left: 15px;
+}
+
+.period {
+    border: 5px solid #9B9B9B;
+    background-color: #9B9B9B;
+    color: #F0F0F0;
+    margin-right: 83%;
+    min-width: 6em;
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+.description {
+    padding-left: 4em;
+}
+
+.description li {
+    margin-left: -1.8em;
+}
+
+.head p {
+    margin: 0;
+}
+
+.headName {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#skillGroup{
+    margin-top: 2em;
+}
+
+#skills .headName {
+    margin-bottom: 0;
+}
+
+.subHead {
+    letter-spacing: .1em;
+}
+
+#skills li {
+
+    list-style-type: none;
+}
+
+/* formularze kontaktowe  */
+
+.kontakt {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #EEE;
+	height:auto;
+	min-height: 756px;
+}
+
+.dane {
+    padding: 1px 0 5% 75%;
+}
+
+.dane ul{
+	margin-left: -2.5em;	
+}
+
+.dane li {
+	display: inline;
+	border: 2px solid #5F5F5F;	
+	
+}
+
+.formularz {
+    padding: 0 0 5% 5%;
+	float: left;
+}
+
+/* stopka */
+
+.stopka {    
+    border-top: 1px solid #ccc;
+	font-size: 0.7em;
+    padding-bottom: 0;
+	background-color:#99FF66;
+}
+
+.stopka li {
+    display: inline;
+    padding: 0 10px;	
+}
+
+.stopka ul {
+    display: inline;
+    padding: 0 10px;	
+}
+
+a:link {
+    color: #37B9D6;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #EFA700;
+}
+
+a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
